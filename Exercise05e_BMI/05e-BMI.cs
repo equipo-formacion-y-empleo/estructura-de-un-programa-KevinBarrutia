@@ -1,6 +1,8 @@
 float CalculateBMI(float weight, float height)
 {
-    throw new NotImplementedException();
+    float bmi = weight / (height * height);
+    return (float)Math.Round(bmi,2);
+    // throw new NotImplementedException();
 }
 
 float weight = float.Parse(args.Length > 0 ? args[0] : "70,0");

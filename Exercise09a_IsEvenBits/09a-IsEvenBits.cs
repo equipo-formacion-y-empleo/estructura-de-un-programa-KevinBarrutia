@@ -2,7 +2,8 @@ using System;
 
 bool IsEvenBits(int number)
 {
-    throw new NotImplementedException();
+    return (number & 1) == 0;
+    // throw new NotImplementedException();
 }
 
 // Obtener argumentos de línea de comandos

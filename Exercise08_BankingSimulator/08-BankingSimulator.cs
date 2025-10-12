@@ -2,22 +2,29 @@ double balance = 0.0;
 
 void Deposit(double amount)
 {
-    throw new NotImplementedException();
+    balance += amount;
+    // throw new NotImplementedException();
 }
 
 void Withdraw(double amount)
 {
-    throw new NotImplementedException();
+    if (amount > 0 && amount <= balance)
+    {
+        balance -= amount;
+    }
+    // throw new NotImplementedException();
 }
 
 void ApplyInterest(double interestRate)
 {
-    throw new NotImplementedException();
+    balance += balance * interestRate / 100;
+    // throw new NotImplementedException();
 }
 
 void ApplyCommission(double commissionRate)
 {
-    throw new NotImplementedException();
+    balance -= balance * commissionRate / 100;
+    // throw new NotImplementedException();
 }
 
 balance = double.Parse(args.Length > 0 ? args[0] : "1000,0");

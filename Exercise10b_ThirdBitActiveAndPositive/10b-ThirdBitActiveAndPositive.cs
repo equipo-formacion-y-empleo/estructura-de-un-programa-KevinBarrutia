@@ -2,7 +2,8 @@ using System;
 
 bool ThirdBitActiveAndPositive(int number)
 {
-    throw new NotImplementedException();
+    // throw new NotImplementedException();
+    return (number > 0) && ((number & (1 << 2)) != 0);
 }
 
 // Obtener argumentos de línea de comandos

@@ -1,5 +1,6 @@
 double DemoImplicitConversions()
 {
+    
     throw new NotImplementedException();
 }
 
