@@ -2,7 +2,8 @@ using System;
 
 bool MultipleOf3Or5AndGreaterThan50(int number)
 {
-    throw new NotImplementedException();
+    return number % 3 == 0 || (number % 5 == 0 && number > 50);
+    // throw new NotImplementedException();
 }
 
 // Obtener argumentos de línea de comandos

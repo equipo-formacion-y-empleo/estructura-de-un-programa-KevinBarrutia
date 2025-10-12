@@ -1,6 +1,9 @@
 float DistanceBetweenPoints(float x1, float y1, float x2, float y2)
 {
-    throw new NotImplementedException();
+    float dx = x2 - x1;
+    float dy = y2 - y1;
+    return MathF.Sqrt(dx * dx + dy * dy);
+    // throw new NotImplementedException();
 }
 
 float x1 = float.Parse(args.Length > 0 ? args[0] : "0,0");

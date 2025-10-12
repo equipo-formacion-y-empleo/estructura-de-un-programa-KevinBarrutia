@@ -2,7 +2,8 @@ using System;
 
 bool Between10And20OrEven(double number)
 {
-    throw new NotImplementedException();
+    return (number >= 10 && number <= 20) || (number % 2 == 0);
+    // throw new NotImplementedException();
 }
 
 // Obtener argumentos de línea de comandos

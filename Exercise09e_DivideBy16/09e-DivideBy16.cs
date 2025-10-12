@@ -2,7 +2,8 @@ using System;
 
 int DivideBy16(int number)
 {
-    throw new NotImplementedException();
+    return number >> 4;
+    // throw new NotImplementedException();
 }
 
 // Obtener argumentos de línea de comandos

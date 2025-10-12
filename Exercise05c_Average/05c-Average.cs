@@ -1,6 +1,8 @@
 float AverageThreeNumbers(float a, float b, float c)
 {
-    throw new NotImplementedException();
+    float average = (a + b + c) / 3;
+    return average;
+    // throw new NotImplementedException();
 }
 
 float num1 = float.Parse(args.Length > 0 ? args[0] : "10,0");

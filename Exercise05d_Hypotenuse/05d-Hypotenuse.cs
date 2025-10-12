@@ -1,6 +1,7 @@
 float CalculateHypotenuse(float side1, float side2)
 {
-    throw new NotImplementedException();
+    float result = (float)Math.Sqrt(Math.Pow(side1,2) + Math.Pow(side2,2));
+    return result;// throw new NotImplementedException();
 }
 
 float side1 = float.Parse(args.Length > 0 ? args[0] : "3,0");
